@@ -1,0 +1,29 @@
+.team_gradient {
+    width: 100%;
+    position: absolute;
+    top: 53rem;
+}
+
+.pattern {
+    position: absolute;
+    top: 92rem;
+    left: 5rem;
+    width: 32rem;
+}
+
+.team {
+    width: 100%;
+    position: absolute;
+    top: 117rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.team_head {
+    color: white;
+    font-family: Rubik;
+    font-size: 5rem;
+    font-weight: 500;
+}

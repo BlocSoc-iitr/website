@@ -1,8 +1,8 @@
 import React from 'react';
 import './home.css';
 import Particles from "react-tsparticles";
-import ETH from '../../assets/ETH.svg';
-import BTC from '../../assets/BTC.svg';
+import ETH from '../../assets/ETH.png';
+import BTC from '../../assets/BTC.png';
 
 function Home() {
     const particlesInit = (main) => {
