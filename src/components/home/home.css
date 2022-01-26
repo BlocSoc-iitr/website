@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.hero_section {
+    height: 110vh;
+    background-color: #C4C4C4;
+    text-align: center;
+    padding-top: 14rem;
+}
+
+.hero_head {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 6.5rem;
+    line-height: 8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: -0.4rem 0px 0px #8870FF;
+}
+
+.hero_quote {
+    padding-top: 5rem;
+    font-family: Comfortaa;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.eth_logo {
+    height: 19rem;
+    position: absolute;
+    top: 19rem;
+    right: 4.5rem;
+}
+
+.btc_logo {
+    height: 25rem;
+    position: absolute;
+    top: 25.5rem;
+    left: 3rem;
+}
