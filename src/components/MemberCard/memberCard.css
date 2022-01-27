@@ -1,0 +1,26 @@
+.member {
+    background-color: white;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25), -6px -6px 20px rgba(0, 0, 0, 0.25);
+    min-width: 28rem;
+    height: 43rem;
+    border-radius: 4rem;
+}
+
+.member_name {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.member_des {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.profile_pic {
+    width: 20rem;
+    border-radius: 50%;
+    padding: 2rem;
+}

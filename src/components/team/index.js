@@ -12,13 +12,36 @@ function Team() {
         <div className='team'>
             <p className='team_head'>Meet Our Team</p>
             <div className='member_scroll'>
-                <MemberCard />
-                <MemberCard />
-                <MemberCard />
-                <MemberCard />
-                <MemberCard />
-                <MemberCard />
-                <MemberCard />
+                <MemberCard
+                    image="logo"
+                    name="Name"
+                    designation="Designation"
+                    des="Xtra"
+                />
+                <MemberCard
+                    image="TRX"
+                    name="Name"
+                    designation="Designation"
+                    des="Xtra"
+                />
+                <MemberCard
+                    image="BTC"
+                    name="Name"
+                    designation="Designation"
+                    des="Xtra"
+                />
+                <MemberCard
+                    image="logo"
+                    name="Name"
+                    designation="Designation"
+                    des="Xtra"
+                />
+                <MemberCard
+                    image="logo"
+                    name="Name"
+                    designation="Designation"
+                    des="Xtra"
+                />
             </div>
         </div>
       </>
