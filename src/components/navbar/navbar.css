@@ -38,3 +38,9 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.nav_link:hover {
+    color: black;
+    transition: ease-in-out;
+    transition-duration: 400ms;
+}

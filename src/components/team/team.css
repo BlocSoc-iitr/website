@@ -11,6 +11,13 @@
     width: 32rem;
 }
 
+.dash_vector {
+    position: relative;
+    width: 100vw;
+    padding-top: 80rem;
+    z-index: -1;
+}
+
 .team {
     width: 100%;
     position: absolute;
