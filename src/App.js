@@ -3,6 +3,7 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import SideBar from "./components/sidebar";
 import LandingPage from "./components/Landing_page";
+import Resources from "./components/resources";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <Navbar />
       <SideBar />
       <Routes>
+        <Route path="/resources" element={<Resources />}></Route>
         <Route path="/" element={<LandingPage />}></Route>
       </Routes>
-      <Footer />
+      <Footer />  
     </Router>
   );
 }
