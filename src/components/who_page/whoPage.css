@@ -1,5 +1,5 @@
 .who_main {
-    height: 65rem;
+    height: 93vh;
     width: 86%;
     font-family: Rubik;
     z-index: 800;
@@ -35,6 +35,7 @@
     height: 25rem;
     transform: rotate(-13.28deg);
     position: absolute;
-    right: -8rem;
-    bottom: -13rem;
+    right: 2rem;
+    top: 97.5rem;
+    z-index: 850;
 }

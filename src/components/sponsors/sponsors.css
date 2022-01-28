@@ -1,0 +1,68 @@
+.sponsor {
+    width: 60%;
+    padding-left: 20%;
+    position: absolute;
+    top: 275vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sponsor_head {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 8rem;
+    color: #8F4AFF;
+}
+
+.sponsor_tag {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 10rem;
+    color: #8F4AFF;
+}
+
+.sponsor_desc {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+.sponsor_card {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+}
+
+.sponsor_img {
+    height: 14rem;
+    width: 14rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25), -3px -3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.etc {
+    position: absolute;
+    height: 32rem;
+    transform: rotate(15deg);
+    top: 303vh;
+    right: -11rem;
+    opacity: 0.8;
+}
+
+.linkImg {
+    position: absolute;
+    height: 26rem;
+    top: 359vh;
+    left: 3.4rem;
+    opacity: 0.8;
+    transform: rotate(-7.11deg);
+}
