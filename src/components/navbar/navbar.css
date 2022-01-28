@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 .logo {
     position: fixed;
@@ -37,4 +37,10 @@
     color: #49494991;
     font-weight: 500;
     cursor: pointer;
+}
+
+.nav_link:hover {
+    color: black;
+    transition: ease-in-out;
+    transition-duration: 400ms;
 }

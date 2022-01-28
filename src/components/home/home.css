@@ -30,6 +30,8 @@
     position: absolute;
     top: 19rem;
     right: 4.5rem;
+    transform: rotate(-15deg);
+    opacity: 0.8;
 }
 
 .btc_logo {
@@ -37,4 +39,5 @@
     position: absolute;
     top: 25.5rem;
     left: 3rem;
+    opacity: 0.8;
 }
