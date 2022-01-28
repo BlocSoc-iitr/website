@@ -14,7 +14,7 @@ function App() {
         <Route path="/resources" element={<Resources />}></Route>
         <Route path="/" element={<LandingPage />}></Route>
       </Routes>
-      <Footer />  
+      {/* <Footer />   */}
     </Router>
   );
 }
