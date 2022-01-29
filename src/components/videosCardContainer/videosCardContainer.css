@@ -1,0 +1,34 @@
+.cardContainer{
+    height:400px;
+    width: 1330px;
+    background-color: white;
+    margin-top:100px;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25), -6px 0px 10px rgba(0, 0, 0, 0.25);
+    padding:50px;
+}
+.left{
+    border-radius: 0 40px 40px 0;
+    margin-right:auto;
+}
+.right{
+    border-radius: 40px 0 0 40px;
+    margin-left:auto;
+}
+.container_heading{
+    display:flex;
+    align-items:center;
+    font-size: 35px;
+    font-family: Rubik;
+
+}
+.container_arrow{
+    font-size:35px;
+    margin-left:10px;
+}
+.cards_collection{
+    height:400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+}
