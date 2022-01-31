@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 
@@ -14,22 +14,22 @@ function Navbar() {
     <div className='main_nav'>
         <ul>
             <li>
-                <Link to="/resources" className='nav_link'>Resources</Link>
+                <NavLink to="/resources" activeClassName="active" className='nav_link'>Resources</NavLink>
             </li>
             <li>
-                <Link to="/projects" className='nav_link'>Projects</Link>
+                <NavLink to="/projects" activeClassName="active" className='nav_link'>Projects</NavLink>
             </li>
             <li>
-                <Link to="/events" className='nav_link'>Events</Link>
+                <NavLink to="/events" activeClassName="active" className='nav_link'>Events</NavLink>
             </li>
             <li>
-                <Link to="/sponsors" className='nav_link'>Sponsors</Link>
+                <NavLink to="/sponsors" activeClassName="active" className='nav_link'>Sponsors</NavLink>
             </li>
             <li>
-                <Link to="/timeline" className='nav_link'>Timeline</Link>
+                <NavLink to="/timeline" activeClassName="active" className='nav_link'>Timeline</NavLink>
             </li>
             <li>
-                <Link to="/about" className='nav_link'>About Us</Link>
+                <NavLink to="/about" activeClassName="active" className='nav_link'>About Us</NavLink>
             </li>
         </ul>
     </div>

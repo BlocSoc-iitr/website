@@ -44,3 +44,7 @@
     transition: ease-in-out;
     transition-duration: 400ms;
 }
+
+.active {
+    color: black;
+}

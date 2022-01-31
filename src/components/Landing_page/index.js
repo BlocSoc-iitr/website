@@ -4,6 +4,8 @@ import Team from '../team';
 import WhoPage from '../who_page';
 import Sponsors from '../sponsors';
 import ProjectCard from '../projectCard';
+import Timeline from '../timeline';
+import Twitter from '../twitter';
 
 function LandingPage() {
   return (
@@ -13,6 +15,8 @@ function LandingPage() {
       <Team />
       <Sponsors />
       <ProjectCard />
+      <Timeline />
+      <Twitter />
     </>
   );
 }

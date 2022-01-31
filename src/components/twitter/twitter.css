@@ -1,0 +1,25 @@
+.twitter_main {
+    position: absolute;
+    margin-top: 98.7rem;
+    width: 100vw;
+    height: 68rem;
+    background: #843AFC;
+    background-image: url('../../assets/twitter_comp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow-y: visible;
+}
+
+.tweets {
+    position: absolute;
+    margin-top: 94.7rem;
+    right: 10rem;
+    height: 76rem;
+    width: 55rem;
+    border-radius: 4rem;
+    background-color: white;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25), -6px -6px 10px rgba(0, 0, 0, 0.25);
+}

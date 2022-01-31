@@ -1,0 +1,18 @@
+.timeline {
+    position: absolute;
+    margin-top: 25rem;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../assets/when.png');
+    background-repeat: no-repeat;
+    background-size: fill;
+    opacity: 0.9;
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timeline_vector {
+    height: 50rem
+}
