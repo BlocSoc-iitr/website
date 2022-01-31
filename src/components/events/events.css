@@ -1,0 +1,36 @@
+.events_hero {
+    margin-top: 5rem;
+    height: 42rem;
+    padding: 0 15rem;
+    background: rgba(0, 0, 0, 0.48) url('../../assets/events.png');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.events_hero_head {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 6.5rem;
+    line-height: 13rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.events_hero_desc {
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 3.2rem;
+}
+
+.all_events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
