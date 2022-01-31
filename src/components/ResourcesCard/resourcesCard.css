@@ -1,0 +1,40 @@
+.resources_card{
+    height:240px;
+    width:240px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25), -6px -6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin-left:60px;
+    padding:30px;
+}
+.blogs_grey_area{
+    height:160px;
+    background-color: #C4C4C4;
+    width:240px;
+    border-radius: 10px;
+}
+.video_grey_area{
+    height:190px;
+    background-color: #C4C4C4;
+    width:240px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+.blogs_title{
+    font-size:30px;
+    font-family: Rubik;
+    margin-top:15px;
+    font-weight: 500;
+}
+.blogs_button{
+font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+border:1px solid black;
+width:100px;
+text-align: center;
+border-radius: 20px;
+margin-top:10px;
+margin-left:auto;
+}
