@@ -1,0 +1,72 @@
+.projects_hero {
+    background: rgba(0, 0, 0, 0.48) url('../../assets/projects.png');
+}
+
+.all_project_cards {
+    width: 75vw;
+    padding-left: 12.5vw;
+    padding-top: 6.25vw;
+    padding-bottom: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event_card_img {
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.event_card_title {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 5rem;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 4rem;
+    padding-left: 3.5rem;
+    z-index: 50;
+}
+
+.event_child {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/project_img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 600ms ease-in-out;
+}
+
+.event_card_arrow {
+    display: none;
+    font-size: 15rem;
+    line-height: 25vw;
+    color: white;
+    text-align: right;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 2rem;
+}
+
+.event_card_arrow>img {
+    width: 25%;
+}
+
+.event_card_img:hover .event_child,
+.event_card_img:focus .event_child {
+    transform: scale(1.05);
+    display: block;
+    filter: brightness(48%);
+}
+
+.event_card_img:hover .event_card_arrow, .event_card_img:focus .event_card_arrow {
+    display: block;
+}

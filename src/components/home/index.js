@@ -91,9 +91,11 @@ function Home() {
                     detectRetina: true,
                 }}
             />
-            <p className='hero_head'>Blockchain Society</p>
-            <p className='hero_head'>IIT Roorkee</p>
-            <p className='hero_quote'>“Some quote if we have to add or additional info”</p>
+            <div className='above_particle_div'>
+                <p className='hero_head'>Blockchain Society</p>
+                <p className='hero_head'>IIT Roorkee</p>
+                <p className='hero_quote'>“Some quote if we have to add or additional info”</p>
+            </div>
             <img src={ETH} className='eth_logo'/>
             <img src={BTC} className='btc_logo'/>
         </div>
