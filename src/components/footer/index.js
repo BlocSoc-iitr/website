@@ -5,10 +5,11 @@ import brand from '../../assets/brand.svg';
 import trail from '../../assets/trail.svg';
 import airplane from '../../assets/airplane.svg';
 
-function Footer() {
+function Footer(props) {
+  console.log(props.bottom);
   return (
-    <div>
-      <div className="footer">
+    <div className="footer_container" style={{"bottom":props.bottom}}>
+      <div className="footer" >
       <div className="footer_newsletter">
  
 
@@ -39,7 +40,6 @@ function Footer() {
             <p>Location, Something else<br />City,12xx54-India</p>
           </div>
         </div>
-
       </div>
     </div>
   );
