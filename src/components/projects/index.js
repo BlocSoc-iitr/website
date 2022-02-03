@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import project_arrow from '../../assets/Arrow 2.png'
+import Footer from '../footer';
 
 function Projects() {
   return (
@@ -46,6 +47,7 @@ function Projects() {
             <span className='event_card_arrow'><img src={ project_arrow } /></span>
           </div>
         </div>
+        <Footer />
       </>
   );
 }

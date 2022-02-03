@@ -1,0 +1,80 @@
+.sideBar{
+    width:80px;
+    position:fixed;
+    right:-3px;
+    z-index:1000;
+    top:180px;
+    border-radius: 20px;
+
+}
+.sidebar-links{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    top:12px;
+    left:8px;
+    width:60px;
+    height:340px;
+}
+.glass{
+height:380px;
+}
+.sidebar-components{
+    height:60px;
+    width:60px; 
+    
+}
+.sidebar-components:hover{
+    margin-left:6px;
+    transition:all 0.2s ease;
+}
+.github{
+    background: url('../../assets/sidebar/github.svg') no-repeat center;
+    background-size: 35px;
+}
+.github:hover{
+    background: url('../../assets/sidebar/github-hover.svg') no-repeat center;
+    background-size: 50px;
+    
+}
+.insta{
+    background: url('../../assets/sidebar/insta.svg') no-repeat center;
+    background-size: 30px;
+}
+.insta:hover{
+    background: url('../../assets/sidebar/insta-hover.svg') no-repeat center;
+    background-size: 43px;
+}
+.discord{
+    background: url('../../assets/sidebar/discord.svg') no-repeat center;
+    background-size: 33px;
+}
+.discord:hover{
+    background: url('../../assets/sidebar/discord-hover.svg') no-repeat center;
+    background-size: 43px;
+}
+.twitter{
+    background: url('../../assets/sidebar/twitter.svg') no-repeat center;
+    background-size: 30px;
+}
+.twitter:hover{
+    background: url('../../assets/sidebar/twitter-hover.svg') no-repeat center;
+    background-size: 43px;
+}
+.youtube{
+    background: url('../../assets/sidebar/youtube.svg') no-repeat center;
+    background-size: 34px;
+}
+.youtube:hover{
+    background: url('../../assets/sidebar/youtube-hover.svg') no-repeat center;
+    background-size: 48px;
+}
+.linkedin{
+    background: url('../../assets/sidebar/linkedin.svg') no-repeat center;
+    background-size: 33px;
+}
+.linkedin:hover{
+    background: url('../../assets/sidebar/linkedin-hover.svg') no-repeat center;
+    background-size: 48px;
+}

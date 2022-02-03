@@ -2,6 +2,7 @@ import React from 'react';
 import EventCard from '../eventCard';
 import './events.css';
 import styles from '../eventCard/eventCard.css';
+import Footer from '../footer';
 
 function Events() {
   return (
@@ -18,6 +19,7 @@ function Events() {
             <EventCard />
             <EventCard flexDirection="row-reverse"/>
         </div>
+        <Footer/>
       </>
   );
 }
