@@ -11,11 +11,11 @@ function BlogsCardContainer(props) {
           {props.about==="blogs"?"Read Our Blogs":"Watch Our Videos"}  <BsArrowRight className="container_arrow" />
       </div>
       <div className="cards_collection">
-        <Card about="blogs" />
-        <Card about="blogs" />
-        <Card about="blogs" />
-        <Card about="blogs" />
-        <Card about="blogs" />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       </div>
   </div>;

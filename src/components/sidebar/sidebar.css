@@ -1,7 +1,7 @@
 .sideBar{
     width:80px;
     position:fixed;
-    right:-3px;
+    left:1px;
     z-index:1000;
     top:180px;
     border-radius: 20px;
@@ -19,6 +19,8 @@
 }
 .glass{
 height:380px;
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .sidebar-components{
     height:60px;
@@ -26,7 +28,6 @@ height:380px;
     
 }
 .sidebar-components:hover{
-    margin-left:6px;
     transition:all 0.2s ease;
 }
 .github{

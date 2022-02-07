@@ -2,6 +2,19 @@
     position:absolute;
     bottom:0;
 }
+.footer-links{
+    color: white;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-decoration-line: underline;
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top:105px;
+}
 .footer_contact_us{
     background-color: #000000;
     color: white;
@@ -16,6 +29,7 @@
 .footer_brand{
     display: flex;
     align-items: center;
+    margin-top:100px;
 }
 .footer_brand img{
     margin-right:28px;
@@ -26,6 +40,13 @@
     font-size: 3.5rem;
     line-height: 28px;
     font-weight: 300;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:140px;
+}
+.reach_us p{
+    margin-bottom:30px;
 }
 .reach_us_heading{
     text-decoration: underline;
@@ -96,7 +117,7 @@ background-color: white;
     width:11rem;
     border:1px solid black;
     border-radius: 0 20px 20px 0;
-    background: linear-gradient(90deg, #7B61FF 0%, #8F4AFF 100%);
+    background: #0C3C4C;
 }
 .form_submit_button>p{
     color:white;
@@ -117,8 +138,17 @@ cursor:default;
     width:70px;
     right:-30px;
     top:-20px;
-
 }
 .trail{
 height:150px;
+}
+.footer-social-media{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:110px;
+}
+.footer-social-media-icon{
+    filter: invert(100%) sepia(0%) saturate(7487%) hue-rotate(109deg) brightness(103%) contrast(99%);
+
 }

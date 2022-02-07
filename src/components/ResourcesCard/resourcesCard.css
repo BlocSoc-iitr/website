@@ -2,7 +2,7 @@
     height:240px;
     width:240px;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25), -6px -6px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
+    border-radius: 20px;
     margin-left:60px;
     padding:30px;
 }
@@ -11,6 +11,9 @@
     background-color: #C4C4C4;
     width:240px;
     border-radius: 10px;
+}
+.resource_card_img{
+    width:240px;
 }
 .video_grey_area{
     height:190px;
@@ -22,7 +25,7 @@
 .blogs_title{
     font-size:30px;
     font-family: Rubik;
-    margin-top:15px;
+    margin-top:50px;
     font-weight: 500;
 }
 .blogs_button{
