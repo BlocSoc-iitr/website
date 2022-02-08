@@ -12,10 +12,11 @@ import youtube from '../../assets/sidebar/youtube.svg';
 import linkedin from '../../assets/sidebar/linkedin.svg';
 
 
-function Footer() {
+function Footer(props) {
+  console.log(props.bottom);
   return (
-    <div>
-      <div className="footer">
+    <div className="footer_container" style={{"bottom":props.bottom}}>
+      <div className="footer" >
       <div className="footer_newsletter">
         <div className="newsletter_text">
           <p>Subscribe to Our Newsletter</p>

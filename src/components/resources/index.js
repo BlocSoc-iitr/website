@@ -9,7 +9,7 @@ function Resources() {
       <div className="resources">
         <BlogsCardContainer position="right" about="blogs" />
         <VideosCardContainer position="left" about="videos" />
-        <Footer />
+        <Footer bottom="-50px" />
       </div>
   </div>;
 }

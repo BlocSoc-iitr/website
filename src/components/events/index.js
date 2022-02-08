@@ -2,6 +2,7 @@ import React from 'react';
 import EventCard from '../eventCard';
 import './events.css';
 import styles from '../eventCard/eventCard.css';
+import Footer from '../footer';
 
 function Events() {
   return (
@@ -11,13 +12,14 @@ function Events() {
             <p className='events_hero_desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
         </div>
         <div className='all_events'>
-            <EventCard className={styles.event_card_reverse}/>
             <EventCard />
+            <EventCard flexDirection="row-reverse"/>
             <EventCard />
+            <EventCard flexDirection="row-reverse"/>
             <EventCard />
-            <EventCard />
-            <EventCard />
+            <EventCard flexDirection="row-reverse"/>
         </div>
+        <Footer/>
       </>
   );
 }

@@ -6,6 +6,7 @@ import Sponsors from '../sponsors';
 import ProjectCard from '../projectCard';
 import Timeline from '../timeline';
 import Twitter from '../twitter';
+import Footer from "../footer/index"
 
 function LandingPage() {
   return (
@@ -17,6 +18,7 @@ function LandingPage() {
       <ProjectCard />
       <Timeline />
       <Twitter />
+      <Footer bottom="-1700px" />
     </>
   );
 }
