@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
         <div className='hero_section'>
-            <Particles
+            {/*<Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
@@ -90,7 +90,7 @@ function Home() {
                     },
                     detectRetina: true,
                 }}
-            />
+            />*/}
             <div className='above_particle_div'>
                 <p className='hero_head'>Blockchain Society</p>
                 <p className='hero_head'>IIT Roorkee</p>
