@@ -14,6 +14,9 @@ function Navbar() {
     <div className='main_nav'>
         <ul>
             <li>
+                <NavLink to="/" activeClassName="active" className='nav_link'>Home</NavLink>
+            </li>
+            <li>
                 <NavLink to="/resources" activeClassName="active" className='nav_link'>Resources</NavLink>
             </li>
             <li>

@@ -51,11 +51,9 @@
 
 .etc {
     position: absolute;
+    right: 0;
     height: 32rem;
-    transform: rotate(15deg);
     top: 303vh;
-    right: -11rem;
-    opacity: 0.8;
 }
 
 .linkImg {

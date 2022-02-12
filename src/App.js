@@ -6,6 +6,7 @@ import LandingPage from "./components/Landing_page";
 import Resources from "./components/resources";
 import Events from "./components/events";
 import Projects from "./components/projects";
+import Sponsors from "./components/sponsors";
 
 function App() {
   return (
