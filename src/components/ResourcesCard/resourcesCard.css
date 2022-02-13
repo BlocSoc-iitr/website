@@ -7,14 +7,31 @@
     padding:30px;
 }
 .blogs_grey_area{
-    height:160px;
-    background-color: #C4C4C4;
     width:240px;
     border-radius: 10px;
 }
 .resource_card_img{
     width:240px;
 }
+.resource_card_img_hover{
+    background-color: black;
+    height:150px;
+    width:200px;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0;
+    font-size:18px;
+    color:white;
+    font-family: Rubik;
+    padding:20px;
+}
+.resource_card_img_hover:hover{
+    opacity: 0.5;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+}
+
+
 .video_grey_area{
     height:190px;
     background-color: #C4C4C4;
@@ -25,7 +42,7 @@
 .blogs_title{
     font-size:30px;
     font-family: Rubik;
-    margin-top:50px;
+    margin-top:22px;
     font-weight: 500;
 }
 .blogs_button{
