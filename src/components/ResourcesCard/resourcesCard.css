@@ -9,6 +9,7 @@
 .blogs_grey_area{
     width:240px;
     border-radius: 10px;
+    position:relative;
 }
 .resource_card_img{
     width:240px;
